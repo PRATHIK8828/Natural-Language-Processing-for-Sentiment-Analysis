@@ -45,11 +45,13 @@ If running locally, ensure you have Python 3.8 or newer installed.
 Install Dependencies: Open your terminal or Colab notebook cell and run the following command to install all necessary libraries:
 
 bash
+
 pip install gradio pandas scikit-learn matplotlib seaborn nltk
 
 Run
-Copy code
+
 pip install gradio pandas scikit-learn matplotlib seaborn nltk
+
 Run All Cells: Execute all cells in the notebook from top to bottom. In Google Colab, you can do this by going to Runtime -> Run all.
 
 Interact with the Model: Once all cells have run, a Gradio interface will launch (either directly in Colab or as a local web server). You can then type your own flight-related sentences into the provided textbox to get real-time sentiment predictions and confidence scores.
